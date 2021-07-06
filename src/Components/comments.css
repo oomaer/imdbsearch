@@ -1,0 +1,30 @@
+.content-reviews-container{
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #0d1117;
+}
+.content-reviews-content{
+    display: flex;
+    flex-direction: column;
+    background:#131722;
+    
+}
+
+.content-reviews-content h1{
+    margin-bottom: 0;
+    margin-left: 2rem;
+    color:white;
+    margin-top: 3rem;
+    font-family: cursive;
+}
+
+.content-reviews-content ul{
+    list-style: none;
+    padding: 0;
+}
+
+.card-dateandtime{
+    display:flex;
+    flex-direction: column;
+}
