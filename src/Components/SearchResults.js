@@ -12,6 +12,7 @@ const SearchResults = ({data, setData, type, input}) => {
         setSort(event.target.value);
         fetch('https://imdbsearch-backend.herokuapp.com/search', {
             method: 'post',
+            headers : {'Content-Type' : 'application/json'},
             body: JSON.stringify({
                 type : type,
                 text : input,
